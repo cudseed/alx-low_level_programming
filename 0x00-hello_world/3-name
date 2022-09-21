@@ -1,2 +1,2 @@
-echo -e #!/bin/bash
+#!/bin/bash
 gcc $CFILE -o cisfun
