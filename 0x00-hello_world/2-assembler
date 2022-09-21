@@ -1,2 +1,2 @@
-echo -e #!/bin/bash
+#!\s*/bin/bash
 gcc $CFILE -S
