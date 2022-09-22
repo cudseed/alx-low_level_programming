@@ -1,8 +1,10 @@
 #include <stdio.h>
 
+
+
 /**
 
-* main - prints the phrase "Programming is like building a multilingual puzzle
+* main - prints the size of various types
 
 * Return: 0 if existed properly, non-zero otherwise
 
@@ -12,8 +14,21 @@ int main(void)
 
 {
 
-puts("\"Programming is like building a multilingual puzzle");
+printf("size of a char: %d byte(s)
+", sizeof(char));
 
-return (0);
+printf("size of an int: %d byte(s)
+", sizeof(int));
 
-} 4-puts.c
+printf("size of a long int: %d byte(s)
+", sizeof(long int));
+
+printf("size of a long long int: %d byte(s)
+", sizeof(long long int));
+
+printf("size of a float: %d byte(s)
+", sizeof(float));
+
+return (0);
+
+} 6-size.c
